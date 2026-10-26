@@ -1,66 +1,137 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Rena Wedding Service
+
+**A Modern Wedding Service Landing Page**
+
+Rena Wedding Service adalah website landing page untuk memperkenalkan layanan pernikahan, makeup, busana pengantin, dan berbagai paket wedding. Website ini dirancang dengan tampilan elegan, modern, dan responsif untuk membantu calon pelanggan mendapatkan informasi layanan dengan mudah.
+
+## 📸 Website Preview
+
+### 1. Homepage
+Halaman utama yang menampilkan identitas brand, layanan unggulan, dan navigasi website.
+
+![Homepage](screenshots/home.png)
+
+### 2. Layanan Wedding
+Menampilkan berbagai pilihan layanan dan paket yang tersedia.
+
+![Layanan Wedding](screenshots/layanan.png)
+
+### 3. Attire & Gallery
+Galeri koleksi busana pengantin untuk membantu pelanggan melihat pilihan attire.
+
+![Attire & Gallery](screenshots/busana.png)
+
+### 4. Katalog
+Halaman katalog yang menampilkan informasi paket, makeup, wedding, dan layanan lainnya.
+
+![Katalog](screenshots/katalog.png)
+
+### 5. Kontak
+Halaman informasi kontak, media sosial, dan lokasi Rena Wedding Service.
+
+![Kontak](screenshots/kontak.png)
+
+---
+
+## ✨ Features
+
+- **Responsive Design** — Tampilan menyesuaikan ukuran layar perangkat.
+- **Homepage** — Informasi utama dan pengenalan layanan.
+- **Wedding Packages** — Informasi pilihan paket pernikahan.
+- **Attire Gallery** — Galeri koleksi busana pengantin.
+- **Service Catalog** — Katalog paket dan layanan wedding.
+- **Contact Information** — Informasi kontak dan lokasi usaha.
+- **Social Media Integration** — Akses ke media sosial bisnis.
+- **WhatsApp Consultation** — Memudahkan calon pelanggan menghubungi admin.
+- **Google Maps Integration** — Menampilkan lokasi galeri wedding.
+
+## 🛠️ Tech Stack
+
+- PHP
+- Laravel 10
+- Blade Template Engine
+- HTML5
+- CSS3
+- JavaScript
+- Vite
+
+*Sesuaikan daftar teknologi di atas dengan teknologi yang benar-benar digunakan dalam project.*
+
+
+## 🚀 Installation
+
+### Prerequisites
+
+Pastikan perangkat sudah memiliki:
+- PHP yang kompatibel dengan Laravel 10.
+- Composer.
+- Node.js dan npm jika diperlukan untuk membangun aset frontend.
+
+### Setup Project
+
+**1. Clone repository**
+
+```bash
+git clone URL_REPOSITORY
+```
+
+**2. Masuk ke direktori project**
+
+```bash
+cd rena-wedding
+```
+
+**3. Install dependency PHP**
+
+```bash
+composer install
+```
+
+**4. Buat file environment**
+
+Salin `.env.example` menjadi `.env`, kemudian sesuaikan konfigurasi aplikasi.
+
+**5. Generate application key**
+
+```bash
+php artisan key:generate
+```
+
+**6. Install dependency frontend jika diperlukan**
+
+```bash
+npm install
+```
+
+**7. Build aset frontend**
+
+```bash
+npm run build
+```
+
+**8. Jalankan aplikasi**
+
+```bash
+php artisan serve
+```
+
+Buka alamat lokal yang ditampilkan di terminal untuk melihat website.
+
+> Catatan: Sesuaikan langkah instalasi dengan konfigurasi project. Jika website tidak memerlukan database, konfigurasi database dan migrasi tidak perlu ditambahkan.
+
+## 🎯 Project Purpose
+
+Project ini dibuat sebagai implementasi pengembangan website landing page untuk bisnis wedding service, dengan fokus pada penyajian informasi layanan, katalog, galeri, dan kemudahan komunikasi dengan calon pelanggan.
+
+## 👨‍💻 Developer
+
+**Hendra Purnama**
+
+Information Systems Student | Web Developer
+
+
+--
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  Designed and developed with care for Rena Wedding Service.
 </p>
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
